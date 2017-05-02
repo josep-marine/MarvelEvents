@@ -1,4 +1,4 @@
-package marine.josep.masterdetail;
+package marine.josep.masterdetail.activity;
 
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -8,6 +8,8 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+
+import marine.josep.masterdetail.R;
 
 public class MainActivity extends AppCompatActivity {
 
