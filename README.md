@@ -7,6 +7,8 @@ Volley
 
 dataBinding
 
+Glide
+
 SQLIte with GenericDao
 
 
