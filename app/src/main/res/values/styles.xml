@@ -17,4 +17,57 @@
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
+    <style name="list_item">
+        <item name="android:padding">@dimen/padding_default</item>
+        <item name="android:gravity">left|center_vertical</item>
+    </style>
+
+    <style name="list_item_expand">
+        <item name="android:padding">@dimen/padding_default</item>
+        <item name="android:gravity">left|top</item>
+    </style>
+
+    <style name="list_item_event" parent="list_item">
+        <item name="android:layout_height">@dimen/thumbnail_event_height</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+
+    <style name="list_item_text">
+        <item name="android:padding">@dimen/padding_default</item>
+        <item name="android:textSize">@dimen/font_size_normal</item>
+    </style>
+
+    <style name="list_item_text_title" parent="list_item_text">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="list_item_text_header" parent="list_item_text">
+        <item name="android:textSize">@dimen/font_size_big</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="thumbnail">
+
+    </style>
+
+    <style name="thumbnail_event" parent="thumbnail">
+        <item name="android:layout_height">@dimen/thumbnail_event_height</item>
+        <item name="android:layout_width">@dimen/thumbnail_event_width</item>
+    </style>
+
+    <style name="event_detail_fragment">
+        <item name="android:padding">@dimen/padding_default</item>
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="event_detail_text">
+        <item name="android:padding">@dimen/padding_default</item>
+        <item name="android:textSize">@dimen/font_size_normal</item>
+    </style>
+
+    <style name="event_detail_text_title">
+        <item name="android:textSize">@dimen/font_size_big</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
 </resources>

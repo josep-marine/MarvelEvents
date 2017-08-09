@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <variable
+            name="event"
+            type="marine.josep.marvelevents.model.Event" />
+
+        <variable
+            name="handler"
+            type="marine.josep.marvelevents.adapter.EventListAdapter" />
+    </data>
+
+    <LinearLayout
+        style="@style/list_item_event"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <ImageView
+            style="@style/thumbnail_event"
+            android:src="@{event.thumbBitmap}"/>
+
+        <TextView
+            style="@style/list_item_text_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{event.title}"/>
+
+    </LinearLayout>
+
+</layout>

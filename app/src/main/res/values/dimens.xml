@@ -1,3 +1,13 @@
 <resources>
-    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="padding_default">8dp</dimen>
+
+    <dimen name="font_size_small">8dp</dimen>
+    <dimen name="font_size_normal">12dp</dimen>
+    <dimen name="font_size_big">18dp</dimen>
+    <dimen name="font_size_bigger">24dp</dimen>
+
+    <dimen name="thumbnail_event_width">175dp</dimen>
+    <dimen name="thumbnail_event_height">130dp</dimen>
+
 </resources>

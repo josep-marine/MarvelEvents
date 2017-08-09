@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="marvel_url_root">https://gateway.marvel.com:443/v1/public/</string>
+    <string name="marvel_public_apiKey"><!--TODO--></string>
+    <string name="marvel_private_apiKey"><!--TODO--></string>
+</resources>
